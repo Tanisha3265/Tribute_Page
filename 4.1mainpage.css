@@ -25,6 +25,21 @@ hr{
     margin-top: 120px;
     font-family: 'Pacifico', cursive;
 }
+#ee{
+        background-image: url(nav.png);
+        margin-top:10px;
+    }
+    nav{
+        background-image:url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+        position:fixed;
+        width:1524px;
+        margin:0px;
+        padding: 0px;
+        height:200px;
+    }
+    #e{
+        height:250px;
+    }
 
 .ftr{
     background-image:url(nav.png);
