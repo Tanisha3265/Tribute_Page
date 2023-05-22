@@ -1,0 +1,81 @@
+html{
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+    background-color: lightsteelblue;
+    backdrop-filter: blur(19px);
+    margin:50px;
+    font-family:'Times New Roman';
+}
+body{
+    backdrop-filter: blur(19px);
+    -webkit-backdrop-filter: blur(16px);
+}
+h1{
+    text-align: center;
+    
+}
+form{
+    width: 30rem;
+    margin:auto;
+    color:rgb(255, 249, 249);
+    backdrop-filter:blur(16px);
+    background-color: rgba(16, 25, 31, 0.623);
+    border-radius: 15px;
+    border: .5px solid rgba(0, 2, 3, 0.751);
+    padding: 20px 25px;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    margin: 10px 0px;
+    height: 43px;
+    border-radius: 7px;
+    padding: 17px 10px;
+    box-sizing: border-box;
+}
+.nm{
+    padding: 16px;
+    font-size: 15px;
+}
+#sn{
+    font-size: 20px;
+    margin-top: 0px;
+    padding: 7px 0px;
+}
+#dt{
+    margin: 0px;
+    padding: 0px 0px;
+    font-size: 15px;
+    color: rgba(223, 230, 237, 0.501);
+
+}
+.sm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 20px;
+
+}
+#fg a{
+    
+    color:rgba(8, 14, 124, 0.751);
+
+}
+#fg a:link{
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 600px) {
+    form{
+      width: 20rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 15rem;
+    }
+  }
+
+
