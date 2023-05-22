@@ -1,0 +1,44 @@
+html{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Z3lRmgaZRu058cLoxK8tcE0ipSQFsiAyn8O5yD9VPLPhalYfz1fZbtBH8rjQVWMN5s0&usqp=CAU);
+}
+h1{
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 0px;
+    padding:100px;
+    padding-bottom: 0px;
+    font-size: 70px;
+}
+h3{
+    text-align: center;
+    margin:15px 100px;
+    margin-top: 0px;
+    padding:15px 99px;
+    padding-top: 0px;
+    font-size: 30px;
+}
+#d{
+    margin: 0% 46.5%;
+    margin-top: 0px;
+}
+button{
+    border-radius: 7px;
+    background-color: rgb(125, 188, 238);
+    color: rgb(0, 0, 0);
+    height: 25px;
+}
+button:hover{
+    color: cornsilk;
+}
+
+@media screen and (max-width: 600px) {
+    form{
+      width: 20rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 15rem;
+    }
+  }
