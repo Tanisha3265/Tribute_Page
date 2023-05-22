@@ -56,7 +56,17 @@ button:hover{
     text-align:left;
     padding: 0px 17px;
 }
-
+#idd{
+    font-size: 14px;
+    text-align:left;
+    padding:0px 5px;
+    margin-top: 0px;
+}
+#idd a{
+    text-decoration: none;
+    color:rgba(8, 14, 124, 0.751);
+    margin-top: 0px;
+}
 #id a{
     
     color:rgba(8, 14, 124, 0.751);
