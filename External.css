@@ -1,0 +1,72 @@
+html{
+    background-image: url(bg.png);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:0px;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
+    font-size: 20px;
+}
+body{
+    margin-top: 0px;
+}
+.ftr{
+    background-image:url(nav.png);
+    backdrop-filter: blur(370px);
+    height:32px;
+}
+.ftr p{
+    margin:5px 0px;
+    padding: 7px;
+    text-align:center;
+    color: antiquewhite;
+}
+#c1{
+    text-align: justify;
+    margin:10px;
+}
+nav{
+    background-image:url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+    position:fixed;
+    width:1524px;
+    margin:0px;
+    padding: 0px;
+    height:150px;
+    font-size: 16px;
+}
+#e{
+    height:200px;
+}
+#lg{
+    height: 70px;
+    border-radius: 70px;
+    width: 70px;
+    margin: 15px 15px;
+}
+#tn{
+    text-align: right;
+    font-weight:bolder;
+    margin: 5px 20px;
+    margin-top: 100px;
+    font-family: 'Pacifico', cursive;
+}
+#ee{
+    background-image: url(nav.png);
+    margin-top:10px;
+}
+.jk{
+    margin: 0px 3px;
+    padding: 7px 2px;
+    -ms-text-align-last:center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.jk a{
+    color:aliceblue;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.jk a:hover{
+    color: black;
+}
