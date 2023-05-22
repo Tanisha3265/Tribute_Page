@@ -116,3 +116,65 @@ fieldset{
     padding: 0px 15px;
     background-image:url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
 }
+#cu{
+    background-image:url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+}
+.column {
+    float: left;
+    width: 23.5%;
+    margin: 16px 0px;
+    padding: 0 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  .button:hover {
+    background-color: #555;
+  }
+#sand a:link{
+    text-decoration: none;
+}
+#sand a:visited{
+    color: aliceblue;
+} 
+#sand img{
+    height:150px;
+    margin: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style:groove;
+}
+@media screen and (max-width: 650px) {
+.column {
+    width: 100%;
+    display: block;
+    }
+}
