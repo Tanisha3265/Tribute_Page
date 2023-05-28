@@ -85,13 +85,13 @@ button:hover{
     background-color: gainsboro;
 }
 @media screen and (max-width: 600px) {
-    form{
+    form,#sl,#comment{
       width: 20rem;
     }
   }
   
   @media screen and (max-width: 400px) {
-    form{
+    form,#sl,#comment{
       width: 15rem;
     }
   }
