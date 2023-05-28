@@ -87,6 +87,10 @@ footer{
     color: black;
     margin: 15px;
 }
+li{
+    text-align: justify;
+    margin-right: 2%;
+}
 #h{
     font-size: 20px;
     margin-bottom: 2px;
