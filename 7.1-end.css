@@ -32,13 +32,13 @@ button:hover{
 }
 
 @media screen and (max-width: 600px) {
-    form{
+    h1,h3{
       width: 20rem;
     }
   }
   
   @media screen and (max-width: 400px) {
-    form{
-      width: 15rem;
+    h1,h3{
+      width: 10rem;
     }
   }
