@@ -15,3 +15,11 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+
+var dropdowns = document.getElementsByClassName("dropdown-content");
+    window.addEventListener("click", function(event) {
+      for (var i = 0; i < dropdowns.length; i++) {
+        var dropdown = dropdowns[i];
+      }
+    });
