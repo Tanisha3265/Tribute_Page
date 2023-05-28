@@ -4,19 +4,16 @@ html{
     margin-top:0px;
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
-    font-size: 20px;
+    font-size: 16px;
 }
 body{
     margin-top: 0px;
 }
-.ftr{
+footer{
     background-image:url(nav.png);
     backdrop-filter: blur(370px);
     height:32px;
-}
-.ftr p{
-    margin:5px 0px;
-    padding: 7px;
+    width:100%;
     text-align:center;
     color: antiquewhite;
 }
@@ -27,12 +24,30 @@ body{
 nav{
     background-image:url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
     position:fixed;
-    width:1524px;
+    width:100%;
     margin:0px;
     padding: 0px;
     height:150px;
     font-size: 16px;
 }
+.jk .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+.jk .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.jk f:hover .dropdown-content{
+    display: block;
+  }
 #e{
     height:200px;
 }
@@ -56,7 +71,6 @@ nav{
 .jk{
     margin: 0px 3px;
     padding: 7px 2px;
-    -ms-text-align-last:center;
     font-size: 20px;
     font-weight: bolder;
     color: aliceblue;
@@ -69,4 +83,11 @@ nav{
 }
 .jk a:hover{
     color: black;
+}
+.mySlides{
+    border-radius: 13px;
+    margin: 10px;
+    border-color: black;
+    border-style:ridge;
+    height: 350px;
 }
